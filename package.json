@@ -1,0 +1,28 @@
+{
+  "name": "js-html-comparison-rollup-2",
+  "version": "1.0.0",
+  "description": "Example code for js app with rollup 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcin-wosinek/js-html-comparison-rollup-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcin-wosinek/js-html-comparison-rollup-2/issues"
+  },
+  "homepage": "https://github.com/marcin-wosinek/js-html-comparison-rollup-2#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.4",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "babel-plugin-transform-html-import-to-string": "^1.0.0",
+    "rollup": "^2.50.6"
+  }
+}
